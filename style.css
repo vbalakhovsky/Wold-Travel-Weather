@@ -7,12 +7,12 @@
 body {
     
     font-size: 16px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
     background-color: rgb(180, 220, 243);
     
 }
 #current-weather{ background-color: rgb(111, 109, 114);}
-#uv-index{color: rgb(220, 50, 20);}
+
 
 h3{
     font-weight: bold;
@@ -27,3 +27,6 @@ li:hover{
     background-color: lightslategray;
     text-decoration: underline;
 }
+.tooMuchSun{ background-color: rgb(236, 25, 10);}
+.moderateSun {background-color: rgb(197, 180, 21);}
+.noSun{background-color: rgb(53, 161, 10);}

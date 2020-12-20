@@ -154,7 +154,7 @@ function clearHistory(event){
 
 $("#search-button").on("click",displayWeather);
 $(document).on("click",pastSearch);
-
+$(window).on("load",loadlastCity);
 $("#clear-history").on("click",clearHistory);
 
 
