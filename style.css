@@ -11,7 +11,11 @@ body {
     background-color: rgb(180, 220, 243);
     
 }
-#current-weather{ background-color: rgb(111, 109, 114);}
+#current-weather{ background-color: rgb(164, 161, 170);
+box-shadow: 5px 10px #392879; 
+border-radius: 5px;
+padding-bottom: 20px;
+margin-bottom: 20px;}
 
 
 h3{
@@ -27,6 +31,6 @@ li:hover{
     background-color: lightslategray;
     text-decoration: underline;
 }
-.tooMuchSun{ background-color: rgb(236, 25, 10);}
+.tooMuchSun{padding: 5px; background-color: rgb(236, 25, 10);}
 .moderateSun {background-color: rgb(197, 180, 21);}
 .noSun{background-color: rgb(53, 161, 10);}
